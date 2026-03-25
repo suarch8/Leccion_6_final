@@ -1,0 +1,35 @@
+.bg-aysen {
+    background-color: #f0f8ff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+    color: #b91d1d;
+}
+
+.img-principal {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.bg-opacity {
+    background: rgba(0, 0, 0, 0.55);
+}
+
+#lista-estudios li:hover {
+    background-color: #528dfa;
+    transition: 0.3s;
+}
